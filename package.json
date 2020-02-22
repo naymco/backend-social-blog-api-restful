@@ -1,0 +1,35 @@
+{
+  "name": "backend-social-blog-api-restful",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naymco/backend-social-blog-api-restful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naymco/backend-social-blog-api-restful/issues"
+  },
+  "homepage": "https://github.com/naymco/backend-social-blog-api-restful#readme",
+  "dependencies": {
+    "awilix": "^4.2.4",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^5.9.1",
+    "swagger-ui-express": "^4.1.3"
+  }
+}
